@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 google news page for example</title>
+    <style type="text/css">
+        body,h3,ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        .news{
+            width: 600px;
+            /*height: 400px;*/
+            /*background-color: red;*/
+            margin:50px auto 0px;
+            border:1px solid #ddd;
+            padding:15px
+        }
+        .news h3{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .news ul{
+            list-style: none; /*move the default bullet points*/
+        }
+        .news ul li{
+            border-bottom:1px dotted #ddd;
+            height: 35px;
+            line-height: 35px;
+            font-size: 16px;
+        }
+        .news ul li a{
+            text-decoration: none;
+            color: #333;
+        }
+        .news ul li a:hover{
+            color: red;
+        }
+        .news ul li a span{
+            margin-right:10px;
+            font-weight:bold;
+
+        }
+        .col1{
+            color: red;
+        }
+        .col2{
+            color: orange;
+        }
+        .col3{
+            color: yellowgreen;
+        }
+        .col4{
+            color: green;
+        }
+        .col5{
+            color: blue;
+        }
+        .col6{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <h3>Latest News</h3>
+        <ul>
+            <li><a href=""><span class="col1">1</span>KC-135 Tanker Crashes in 'Friendly' Iraqi Airspace, US Says</a></li>
+            <li><a href=""><span class="col2">2</span>Michigan synagogue car-ramming suspect bought $2,000 worth of fireworks before attack</a></li>
+            <li><a href=""><span class="col3">3</span>Judge blocks DOJ's criminal probe of Federal Reserve, blasting it as political</a></li>
+            <li><a href=""><span class="col4">4</span>Trump: Iran war will end when I 'feel it in my bones'</a></li>
+            <li><a href=""><span class="col5">5</span>U.S. sending USS Tripoli, thousands of Marines to Middle East</a></li>
+            <li><a href=""><span class="col6">6</span>Line to get into Austin airport goes out the doors Friday morning</a></li>            
+        </ul>
+    </div>
+</body>
+</html>
