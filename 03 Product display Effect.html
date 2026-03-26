@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display Effect</title>
+    <style type="text/css">
+        body,p,h3{
+            margin: 0 px;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            color: red;
+        }
+        .product {
+            width: 268px;
+            /*background-color:red;*/
+            margin:50px auto 0px; /*upper left/right lower*/
+            border:1px solid #ddd;
+            text-align: center;
+        }
+        .product p.describe {
+                /*border:1px solid red;*/
+                color: #845f3f;
+                font-size: 16px;
+        }
+        .product .product-text p {
+                /*border:1px solid red;*/
+                color: #845f3f;
+                font-size: 16px;
+        }
+        .product .product-text h3 {
+            font-size: 20px;
+            font-weight: 400;
+            /*border: 1px solid red;*/
+            margin-top: 15px;
+            color:black;
+        }
+        .product .product-text {
+            background-color: #f8f8f8;
+            margin-top:20px;
+            padding:15px;
+        }
+        .product .product-mark .note{
+            display: block;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <a href="">
+        <img src="images/kettle.jpg" alt="kettle" width="195px">
+        <p class="describe">Quickly boil water for safe drinking</p>
+        <div class="product-text">
+            <div class="product-mark">
+                <p1 class="note">30-day price protection</p1>
+                <p2 class="note">Free return shipping</p2>
+                <p3 class="note">Special offer</p3>
+            </div>
+            <h3>Electric Kettle</h3>
+            <p>$19.99</p>
+        </div>
+        </a>
+    </div>
+</body>
+</html>
